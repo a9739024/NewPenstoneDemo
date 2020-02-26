@@ -1,3 +1,5 @@
+package entitytest;
+
 public class EntityTest {
 
     public String showEntity() {

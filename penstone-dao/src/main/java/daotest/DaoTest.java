@@ -1,3 +1,7 @@
+package daotest;
+
+import entitytest.EntityTest;
+
 import javax.swing.text.html.parser.Entity;
 
 public class DaoTest {
