@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="penstone-web" />
+        <module name="penstone-dao" />
+        <module name="penstone-service" />
+        <module name="penstone-entity" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="newpanstone" target="1.8" />
+      <module name="penstone-dao" target="1.8" />
+      <module name="penstone-entity" target="1.8" />
+      <module name="penstone-service" target="1.8" />
+      <module name="penstone-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="newpanstone" options="" />
+      <module name="penstone-dao" options="-parameters" />
+      <module name="penstone-entity" options="-parameters" />
+      <module name="penstone-service" options="-parameters" />
+      <module name="penstone-web" options="-parameters" />
+    </option>
+  </component>
+</project>

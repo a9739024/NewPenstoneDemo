@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/newpanstone.iml" filepath="$PROJECT_DIR$/newpanstone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/penstone-dao/penstone-dao.iml" filepath="$PROJECT_DIR$/penstone-dao/penstone-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/penstone-entity/penstone-entity.iml" filepath="$PROJECT_DIR$/penstone-entity/penstone-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/penstone-service/penstone-service.iml" filepath="$PROJECT_DIR$/penstone-service/penstone-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/penstone-web/penstone-web.iml" filepath="$PROJECT_DIR$/penstone-web/penstone-web.iml" />
+    </modules>
+  </component>
+</project>
