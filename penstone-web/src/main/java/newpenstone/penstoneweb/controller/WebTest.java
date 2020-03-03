@@ -15,7 +15,6 @@ import java.util.Optional;
 public class WebTest {
 
     @Autowired
-    @Qualifier("ServiceTest")
     ServiceTest serviceTest;
 
     @RequestMapping("showAll")
