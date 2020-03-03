@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/newpanstone.iml" filepath="$PROJECT_DIR$/newpanstone.iml" />
       <module fileurl="file://$PROJECT_DIR$/penstone-dao/penstone-dao.iml" filepath="$PROJECT_DIR$/penstone-dao/penstone-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/penstone-entity/penstone-entity.iml" filepath="$PROJECT_DIR$/penstone-entity/penstone-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/penstone-quartz/penstone-quartz.iml" filepath="$PROJECT_DIR$/penstone-quartz/penstone-quartz.iml" />
       <module fileurl="file://$PROJECT_DIR$/penstone-service/penstone-service.iml" filepath="$PROJECT_DIR$/penstone-service/penstone-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/penstone-web/penstone-web.iml" filepath="$PROJECT_DIR$/penstone-web/penstone-web.iml" />
     </modules>

@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/penstone-dao/pom.xml" />
         <option value="$PROJECT_DIR$/penstone-web/pom.xml" />
+        <option value="$PROJECT_DIR$/penstone-quartz/pom.xml" />
       </list>
     </option>
   </component>

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="penstone-quartz" />
         <module name="penstone-dao" />
         <module name="penstone-service" />
         <module name="penstone-entity" />
@@ -16,6 +17,7 @@
       <module name="newpanstone" target="1.8" />
       <module name="penstone-dao" target="1.8" />
       <module name="penstone-entity" target="1.8" />
+      <module name="penstone-quartz" target="1.8" />
       <module name="penstone-service" target="1.8" />
       <module name="penstone-web" target="1.8" />
     </bytecodeTargetLevel>
@@ -25,6 +27,7 @@
       <module name="newpanstone" options="" />
       <module name="penstone-dao" options="-parameters" />
       <module name="penstone-entity" options="-parameters" />
+      <module name="penstone-quartz" options="-parameters" />
       <module name="penstone-service" options="-parameters" />
       <module name="penstone-web" options="-parameters" />
     </option>
