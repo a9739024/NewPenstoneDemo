@@ -40,27 +40,27 @@ spring:
       org.quartz.jobStore.driverDelegateClass: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
       # 在调度流程的第一步，也就是拉取待即将触发的triggers时，是上锁的状态，即不会同时存在多个线程拉取到相同的trigger的情况，也就避免的重复调度的危险。参考：https://segmentfault.com/a/1190000015492260
       org.quartz.jobStore.acquireTriggersWithinLock: true
-  logging:
-    level:
-      NewPenstone: debug
-      com.xkcoding.task.quartz.mapper: trace
-  mybatis:
-    configuration:
-      # 下划线转驼峰
+logging:
+  level:
+    newpenstone.penstoneweb: debug
+    newpenstone.penstoneweb.entity.quartz.mapper: trace
+mybatis:
+  configuration:
+    # 下划线转驼峰
       map-underscore-to-camel-case: true
-      mapper-locations: classpath:mappers/*.xml
-      type-aliases-package: com.xkcoding.task.quartz.entity
-  mapper:
-    mappers:
-      - tk.mybatis.mapper.common.Mapper
-    not-empty: true
-    style: camelhump
-    wrap-keyword: "`{0}`"
-    safe-delete: true
-    safe-update: true
-    identity: MYSQL
-  pagehelper:
-    auto-dialect: true
-    helper-dialect: mysql
-    reasonable: true
-    params: count=countSql
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: newpenstone.penstoneweb.entity
+mapper:
+  mappers:
+    - tk.mybatis.mapper.common.Mapper
+  not-empty: true
+  style: camelhump
+  wrap-keyword: "`{0}`"
+  safe-delete: true
+  safe-update: true
+  identity: MYSQL
+pagehelper:
+  auto-dialect: true
+  helper-dialect: mysql
+  reasonable: true
+  params: count=countSql

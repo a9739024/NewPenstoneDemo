@@ -3,7 +3,7 @@ package newpenstone.penstoneweb;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = {"newpenstone.penstoneweb"})
+@SpringBootApplication(scanBasePackages = {"newpenstone.penstoneweb.entity"})
 public class PenstoneWebApplication {
 
     public static void main(String[] args) {
