@@ -9,6 +9,7 @@
         <module>penstone-service</module>
         <module>penstone-dao</module>
         <module>penstone-web</module>
+        <module>penstone-quartz</module>
     </modules>
 
     <parent>

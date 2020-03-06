@@ -45,6 +45,17 @@
             <scope>runtime</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>4.6.1</version>
+        </dependency>
+
         <!--web模組 引入entity模組-->
         <dependency>
             <groupId>NewPenstone</groupId>
@@ -61,6 +72,12 @@
         <dependency>
             <groupId>NewPenstone</groupId>
             <artifactId>penstone-dao</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!--web模組 引入quartz模組-->
+        <dependency>
+            <groupId>NewPenstone</groupId>
+            <artifactId>penstone-quartz</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>

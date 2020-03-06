@@ -1,4 +1,4 @@
-package model.demo;
+package newpenstone.penstoneweb.dao.demo;
 
 import java.util.Optional;
 

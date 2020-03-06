@@ -1,11 +1,10 @@
-package daotest;
+package newpenstone.penstoneweb.dao;
 
-import entitytest.EntityTest;
-import model.demo.DemoRespoitory;
-import model.demo.DemoServiceInterface;
-import model.demo.DemoModel;
+import newpenstone.penstoneweb.entity.EntityTest;
+import newpenstone.penstoneweb.dao.demo.DemoRespoitory;
+import newpenstone.penstoneweb.dao.demo.DemoServiceInterface;
+import newpenstone.penstoneweb.dao.demo.DemoModel;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
@@ -16,8 +15,10 @@ public class DaoTest implements DemoServiceInterface {
     @Autowired
     DemoRespoitory demoRespoitory;
 
+    @Autowired
+    EntityTest entityTest;
+
     public String showDao() {
-        EntityTest entityTest = new EntityTest();
         return entityTest.showEntity()+"I'm Dao";
     }
 

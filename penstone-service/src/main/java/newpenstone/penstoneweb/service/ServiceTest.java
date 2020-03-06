@@ -1,13 +1,13 @@
-package servicetest;
+package newpenstone.penstoneweb.service;
 
-import daotest.DaoTest;
-import model.demo.DemoModel;
+import newpenstone.penstoneweb.dao.DaoTest;
+import newpenstone.penstoneweb.dao.demo.DemoModel;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
-@Service
+@Component
 public class ServiceTest {
 
     @Autowired

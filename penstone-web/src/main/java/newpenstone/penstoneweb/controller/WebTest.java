@@ -1,11 +1,11 @@
 package newpenstone.penstoneweb.controller;
 
-import model.demo.DemoModel;
+import newpenstone.penstoneweb.dao.demo.DemoModel;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import servicetest.ServiceTest;
+import newpenstone.penstoneweb.service.ServiceTest;
+
 
 import java.util.Optional;
 
@@ -29,4 +29,5 @@ public class WebTest {
         DemoModel demoModel = optionalDemoModel.get();
         return demoModel.toString();
     }
+
 }
