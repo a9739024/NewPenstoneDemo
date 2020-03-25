@@ -5,9 +5,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>penstone-entity</module>
-        <module>penstone-service</module>
-        <module>penstone-dao</module>
+        <module>penstone-core</module>
         <module>penstone-web</module>
         <module>penstone-quartz</module>
     </modules>

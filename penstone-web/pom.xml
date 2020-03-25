@@ -69,22 +69,10 @@
             <version>4.6.1</version>
         </dependency>
 
-        <!--web模組 引入entity模組-->
+        <!--web模組 引入core模組-->
         <dependency>
             <groupId>NewPenstone</groupId>
-            <artifactId>penstone-entity</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <!--web模組 引入service模組-->
-        <dependency>
-            <groupId>NewPenstone</groupId>
-            <artifactId>penstone-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-        <!--web模組 引入dao模組-->
-        <dependency>
-            <groupId>NewPenstone</groupId>
-            <artifactId>penstone-dao</artifactId>
+            <artifactId>penstone-core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!--web模組 引入quartz模組-->
